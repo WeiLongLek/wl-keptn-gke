@@ -9,3 +9,6 @@ spec:
         - name: "sequence1"
           tasks: 
             - name: "sayhello"
+            - name: "evaluation"
+              properties:
+                timeframe: 30m
