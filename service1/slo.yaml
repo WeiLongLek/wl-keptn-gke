@@ -1,0 +1,21 @@
+spec_version: ""
+filter: {}
+comparison:
+  compare_with: single_result
+  include_result_with_score: pass
+  number_of_comparison_results: 1
+  aggregate_function: avg
+objectives:
+- sli: Automation_-_Browser_-_Example
+  displayName: ""
+  pass:
+  - criteria:
+    - '>=99.000000'
+  warning:
+  - criteria:
+    - '>=98.000000'
+  weight: 1
+  key_sli: false
+total_score:
+  pass: 90%
+  warning: 75%
