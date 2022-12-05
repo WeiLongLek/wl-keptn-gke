@@ -1,3 +1,4 @@
 spec_version: 0.1.4
 indicators:
   Automation_-_Browser_-_Example: SLO;10a05721-09df-3160-a45f-72f101d4abad
+  WL-vILT-Apdex: SLO;b273e924-d6f3-3a0c-87a2-3a788cf0bf51
