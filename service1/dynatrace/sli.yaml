@@ -1,4 +1,5 @@
 spec_version: 0.1.4
 indicators:
   Automation_-_Browser_-_Example: SLO;10a05721-09df-3160-a45f-72f101d4abad
+  Host_Memory: SLO;d794cfa1-2c20-30e5-b369-614e016aafe7
   rt_av: MV2;MicroSecond;metricSelector=builtin:service.response.time:splitBy():avg:names
