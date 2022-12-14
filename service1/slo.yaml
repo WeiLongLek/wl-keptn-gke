@@ -20,11 +20,11 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=70000
+    - <=30000
   warning:
   - criteria:
-    - <=80000
-  weight: 1
+    - <=40000
+  weight: 2
   key_sli: true
 total_score:
   pass: 90%
