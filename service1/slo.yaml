@@ -20,12 +20,22 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=30000
+    - <=30
   warning:
   - criteria:
-    - <=40000
+    - <=40
   weight: 2
   key_sli: true
+- sli: Host_Memory
+  displayName: ""
+  pass:
+  - criteria:
+    - '>=95.000000'
+  warning:
+  - criteria:
+    - '>=90.000000'
+  weight: 1
+  key_sli: false
 total_score:
   pass: 90%
   warning: 75%
